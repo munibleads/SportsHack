@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(browse)",
+      "WebFetch(domain:valorant-api.com)",
+      "Bash(npm run:*)",
+      "Bash(xargs grep:*)",
+      "WebSearch",
+      "WebFetch(domain:www.vlr.gg)",
+      "WebFetch(domain:liquipedia.net)",
+      "Bash(gh auth:*)"
+    ]
+  }
+}
