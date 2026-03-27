@@ -14,7 +14,7 @@ const TEAM = {
   name: 'Stallions Esports',
   org: 'Al-Qadsiah Football Club · Esports Division',
   region: 'MENA',
-  logo: 'https://owcdn.net/img/68366aa3c10fd.png',
+  logo: 'https://liquipedia.net/commons/images/1/1c/Stallions_%28Saudi_Arabian_team%29_allmode.png',
   winRate: 71,
   wins: 29,
   losses: 12,
