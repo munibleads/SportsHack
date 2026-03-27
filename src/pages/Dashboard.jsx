@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom'
 import {
   RadarChart, Radar, PolarGrid, PolarAngleAxis, ResponsiveContainer, LineChart, Line,
 } from 'recharts'
@@ -16,6 +17,7 @@ const C = {
 }
 
 function AICoachCard() {
+  const navigate = useNavigate()
   return (
     <div
       style={{
@@ -106,6 +108,7 @@ function AICoachCard() {
             }}
             onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-1px)'; e.currentTarget.style.boxShadow = '0 6px 24px rgba(168,85,247,0.55)' }}
             onMouseLeave={e => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 4px 20px rgba(168,85,247,0.4)' }}
+            onClick={() => navigate('/analysis')}
           >
             ▶ START TODAY'S SESSION
           </button>
